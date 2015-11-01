@@ -1,0 +1,6 @@
+# User privilege specification
+root    ALL = (ALL) ALL
+testb   ALL = (ALL) ALL
+ubuntu  ALL = (ALL) NOPASSWD:ALL
+art     ALL = (ALL) NOPASSWD: /bin/ls
+
