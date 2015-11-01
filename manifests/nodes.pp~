@@ -1,0 +1,12 @@
+node 'demo' {
+  include nginx
+
+  package { 'puppet':
+    ensure => latest,
+  } 
+
+  package { 'apache2.2-common':
+    ensure => absent,
+  }
+
+}
